@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WsxbWq9eNS9l2kL/SpPtq0ypH5AUUZpCw+F0VzxNIMfKFztGBZ1j6zSBpQ4tTFz3pF9SEQy5poAHTAhy7BCGEg==",
+  "dgSpecHash": "+6/a5OeLXo4/iv6Iphfvah/D/3ScJrN/h2OcAqXjocH2JxPZT3zRoGqvm/JG1P/67WPzV5/Wc2QlC0aY+I21Kg==",
   "success": true,
-  "projectFilePath": "D:\\Programiranje\\packages\\PlmLibs\\PlmLibs\\PlmLibs.csproj",
+  "projectFilePath": "D:\\Programiranje\\packages\\plm-libs\\PlmLibs\\PlmLibs.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

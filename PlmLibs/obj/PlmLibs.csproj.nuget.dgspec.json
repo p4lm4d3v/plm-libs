@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programiranje\\packages\\PlmLibs\\PlmLibs\\PlmLibs.csproj": {}
+    "D:\\Programiranje\\packages\\plm-libs\\PlmLibs\\PlmLibs.csproj": {}
   },
   "projects": {
-    "D:\\Programiranje\\packages\\PlmLibs\\PlmLibs\\PlmLibs.csproj": {
+    "D:\\Programiranje\\packages\\plm-libs\\PlmLibs\\PlmLibs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programiranje\\packages\\PlmLibs\\PlmLibs\\PlmLibs.csproj",
-        "projectName": "PlmLibs",
-        "projectPath": "D:\\Programiranje\\packages\\PlmLibs\\PlmLibs\\PlmLibs.csproj",
+        "projectUniqueName": "D:\\Programiranje\\packages\\plm-libs\\PlmLibs\\PlmLibs.csproj",
+        "projectName": "plmlibs",
+        "projectPath": "D:\\Programiranje\\packages\\plm-libs\\PlmLibs\\PlmLibs.csproj",
         "packagesPath": "C:\\Users\\djokic\\.nuget\\packages\\",
-        "outputPath": "D:\\Programiranje\\packages\\PlmLibs\\PlmLibs\\obj\\",
+        "outputPath": "D:\\Programiranje\\packages\\plm-libs\\PlmLibs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",

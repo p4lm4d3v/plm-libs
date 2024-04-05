@@ -5,15 +5,17 @@
     <version>1.0.0</version>
     <title>PlmLibs</title>
     <authors>p4lm4d3v</authors>
+    <icon>p4lm4d3v.png</icon>
     <readme>README.md</readme>
     <description>An assortment of libraries for easier programming.</description>
-    <repository type="git" />
+    <repository type="git" url="https://github.com/p4lm4d3v/plm-libs" commit="b15bcd118fd8425fed5834ee12e2c6d18ecadde7" />
     <dependencies>
       <group targetFramework="net8.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\Programiranje\packages\PlmLibs\PlmLibs\bin\Release\net8.0\PlmLibs.dll" target="lib\net8.0\PlmLibs.dll" />
-    <file src="D:\Programiranje\packages\PlmLibs\PlmLibs\README.md" target="\README.md" />
+    <file src="D:\Programiranje\packages\plm-libs\PlmLibs\bin\Release\net8.0\PlmLibs.dll" target="lib\net8.0\PlmLibs.dll" />
+    <file src="D:\Programiranje\packages\plm-libs\README.md" target="\README.md" />
+    <file src="C:\Users\djokic\Pictures\p4lm4d3v.png" target="\p4lm4d3v.png" />
   </files>
 </package>

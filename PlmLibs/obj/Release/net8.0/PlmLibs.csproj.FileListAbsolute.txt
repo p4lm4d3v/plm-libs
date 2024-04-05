@@ -9,3 +9,15 @@ D:\Programiranje\packages\PlmLibs\PlmLibs\obj\Release\net8.0\PlmLibs.dll
 D:\Programiranje\packages\PlmLibs\PlmLibs\obj\Release\net8.0\refint\PlmLibs.dll
 D:\Programiranje\packages\PlmLibs\PlmLibs\obj\Release\net8.0\PlmLibs.pdb
 D:\Programiranje\packages\PlmLibs\PlmLibs\obj\Release\net8.0\ref\PlmLibs.dll
+D:\Programiranje\packages\plm-libs\PlmLibs\bin\Release\net8.0\PlmLibs.deps.json
+D:\Programiranje\packages\plm-libs\PlmLibs\bin\Release\net8.0\PlmLibs.dll
+D:\Programiranje\packages\plm-libs\PlmLibs\bin\Release\net8.0\PlmLibs.pdb
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\PlmLibs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\PlmLibs.AssemblyInfoInputs.cache
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\PlmLibs.AssemblyInfo.cs
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\PlmLibs.csproj.CoreCompileInputs.cache
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\PlmLibs.sourcelink.json
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\PlmLibs.dll
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\refint\PlmLibs.dll
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\PlmLibs.pdb
+D:\Programiranje\packages\plm-libs\PlmLibs\obj\Release\net8.0\ref\PlmLibs.dll

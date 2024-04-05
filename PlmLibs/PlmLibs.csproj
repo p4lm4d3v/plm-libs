@@ -11,7 +11,20 @@
     <Authors>p4lm4d3v</Authors>
     <Description>An assortment of libraries for easier programming.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>p4lm4d3v.png</PackageIcon>
+    <RepositoryUrl>https://github.com/p4lm4d3v/plm-libs</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\djokic\Pictures\p4lm4d3v.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="README.md">
