@@ -8,15 +8,15 @@
 
 # Content
 
-  - ArrayList
+  - [ArrayListLib](https://github.com/p4lm4d3v/plm-libs/blob/main/PlmLibs/ArrayListLib.cs)
     - Function for easier wokring with **Arrays** and **Lists**.
-  - Async
+  - [AsyncLib](https://github.com/p4lm4d3v/plm-libs/blob/main/PlmLibs/AsyncLib.cs)
     - Functions for easier working with **Async** in C#.
-  - Dictionary
+  - [DictionaryLib](https://github.com/p4lm4d3v/plm-libs/blob/main/PlmLibs/DictionaryLib.cs)
     - Function for easier working with **Dictionaries**.
-  - Generic
+  - [GenericLib](https://github.com/p4lm4d3v/plm-libs/blob/main/PlmLibs/GenericLib.cs)
     - Functions that don't with in any special group and are just too **Generic**.
-  - Mathematics
+  - [MathLib](https://github.com/p4lm4d3v/plm-libs/blob/main/PlmLibs/MathLib.cs)
     - Mathematic function that make math in C# easier.
-  - Tuple
+  - [TupleLib](https://github.com/p4lm4d3v/plm-libs/blob/main/PlmLibs/TupleLib.cs)
     - Functions for easier working with **Tuples**.
