@@ -8,7 +8,7 @@
     <icon>p4lm4d3v.png</icon>
     <readme>README.md</readme>
     <description>An assortment of libraries for easier programming.</description>
-    <repository type="git" url="https://github.com/p4lm4d3v/plm-libs" commit="82bf6e02ba43e8327780e2ab6e48d5c92a5aa682" />
+    <repository type="git" url="https://github.com/p4lm4d3v/plm-libs" commit="ad0346be944efedcdb4a034769917ffa3171a8b5" />
     <dependencies>
       <group targetFramework="net8.0" />
     </dependencies>
