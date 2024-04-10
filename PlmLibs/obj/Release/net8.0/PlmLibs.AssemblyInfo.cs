@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An assortment of libraries for easier programming.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b15bcd118fd8425fed5834ee12e2c6d18ecadde7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82bf6e02ba43e8327780e2ab6e48d5c92a5aa682")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlmLibs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlmLibs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
