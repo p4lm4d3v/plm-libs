@@ -1,24 +1,30 @@
-﻿using System.Data;
-using System.Data.SqlTypes;
-namespace PlmLibs.Generic
+﻿
+namespace PlmLibs
 {
-    public static class Generic
+    public static class GenericLib
     {
-        public static string ListToString(List<int> list)
+        /// <summary>
+        /// Turns a Enumerable<T> to a list of it's values 
+        /// </summary>
+        /// <param name="list"></param>
+        /// <returns></returns>
+        public static string EnumerableToString<T>(IEnumerable<T> enumerable)
         {
-            if (list == null) return "Null";
-            String str = String.Empty;
-
+            List<T> list = enumerable.ToList();
+            if (list == null)
+                return "[Null]";
+            if (list.Count == 0)
+                return "[Empty]";
             if (list.Count == 1)
-                str = list[0].ToString();
+                return $"{list[0]}";
             else
-                foreach (int i in list)
-                {
-                    str += $"{i.ToString()}, ";
-                }
-
-            return str;
+                return string.Join(",", list);
         }
+        /// <summary>
+        /// A pretty way of printing the elapsed time from [start] time to [end] time
+        /// </summary>
+        /// <param name="start">Starting time</param>
+        /// <param name="end">Starting end</param>
         public static void ElapsedTime(DateTime start, DateTime end)
         {
             TimeSpan elapsedTime = end - start;

@@ -1,6 +1,6 @@
-namespace PlmLibs.Mathematics
+namespace PlmLibs
 {
-    public static class Mathematics
+    public static class MathLib
     {
         public static T MapValue<T>(T value, T from1, T to1, T from2, T to2)
         {
