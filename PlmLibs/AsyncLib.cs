@@ -1,6 +1,6 @@
-﻿namespace PlmLibs.Async
+﻿namespace PlmLibs
 {
-    public static class Async
+    public static class AsyncLib
     {
         public static void Delay(int miliseconds)
         {

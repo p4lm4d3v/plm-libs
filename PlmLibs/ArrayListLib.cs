@@ -1,8 +1,8 @@
 ﻿using System.Data.SqlTypes;
 
-namespace PlmLibs.ArrayList
+namespace PlmLibs
 {
-    public static class ArrayList
+    public static class ArrayListLib
     {
         public static void PrintEnumerable<T>(IEnumerable<T> enumerable, bool enumerate = false, bool len = false)
             where T : INullable

@@ -1,8 +1,8 @@
 ﻿using System.Data.SqlTypes;
 
-namespace PlmLibs.Dictionary
+namespace PlmLibs
 {
-    public static class Dictionary
+    public static class DictionaryLib
     {
         public static Dictionary<T, int> ListToDict<T>(List<T> list)
             where T : INullable

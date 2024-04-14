@@ -1,5 +1,4 @@
-﻿
-namespace PlmLibs
+﻿namespace PlmLibs
 {
     public static class GenericLib
     {
