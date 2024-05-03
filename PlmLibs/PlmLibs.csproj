@@ -13,7 +13,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>p4lm4d3vNEW.png</PackageIcon>
     <RepositoryUrl>https://github.com/p4lm4d3v/plm-libs</RepositoryUrl>
-    <Version>1.0.3</Version>
+    <Version>1.0.6</Version>
     <PackageProjectUrl>https://www.nuget.org/packages/plmlibs</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>

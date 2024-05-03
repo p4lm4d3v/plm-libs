@@ -44,5 +44,36 @@
             if (elapsedTime.Milliseconds > 0)
                 Console.WriteLine($"{elapsedTime.Milliseconds} milliseconds");
         }
+        /// <summary>
+        /// A weird mathemathical function defined in 3Blue1Brown's "Pi hiding in prime regularities" video
+        /// </summary>
+        /// <param name="n">Any positive integer</param>
+        /// <returns> -1 if n is by 3 greater then a multiple of 4
+        /// <br></br>  1 if n is by 1 greater then a multiple of 4
+        /// <br></br>  0 if the number is even</returns>
+        public static int Kai(int n)
+        {
+            if (n == 0) return 1;
+            n = Math.Abs(n);
+
+            double x = (n - 3) / 4d;
+            if (Math.Floor(x) == x) return -1;
+
+            double y = (n - 1) / 4d;
+            if (Math.Floor(y) == y) return 1;
+
+            return 0;
+        }
+        /// <summary>
+        /// In a grid of points where (x,y) of a point x,y ∈ Z we imagine <br></br>
+        /// a circle with radius equal to the square root of n <br></br>
+        /// this function returns how many of those points are inside this circle
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static int LatticePoints(int n)
+        {
+            return MathLib.GetAllDivisors(n).Select(Kai).Sum() * 4;
+        }
     }
 }

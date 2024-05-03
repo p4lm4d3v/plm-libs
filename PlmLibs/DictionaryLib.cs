@@ -1,11 +1,8 @@
-﻿using System.Data.SqlTypes;
-
-namespace PlmLibs
+﻿namespace PlmLibs
 {
     public static class DictionaryLib
     {
         public static Dictionary<T, int> ListToDict<T>(List<T> list)
-            where T : INullable
         {
             Dictionary<T, int> dict = new();
             foreach (T key in list)
@@ -18,7 +15,6 @@ namespace PlmLibs
             return dict;
         }
         public static bool AllKeyEq<T, U>(Dictionary<T, U> dict, T key)
-            where T : INullable
         {
             foreach (T k in dict.Keys)
                 if (!k!.Equals(key))
@@ -26,7 +22,6 @@ namespace PlmLibs
             return true;
         }
         public static bool AllValsEq<T, U>(Dictionary<T, U> dict, U val)
-            where T : INullable
         {
             foreach (U v in dict.Values)
                 if (!v!.Equals(val))
@@ -34,7 +29,6 @@ namespace PlmLibs
             return true;
         }
         public static bool AnyKeyEq<T, U>(Dictionary<T, U> dict, T key)
-            where T : INullable
         {
             foreach (T k in dict.Keys)
                 if (k!.Equals(key))
@@ -42,7 +36,6 @@ namespace PlmLibs
             return false;
         }
         public static bool AnyValsEq<T, U>(Dictionary<T, U> dict, U val)
-            where T : INullable
         {
             foreach (U v in dict.Values)
                 if (v!.Equals(val))

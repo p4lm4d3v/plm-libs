@@ -1,11 +1,8 @@
-﻿using System.Data.SqlTypes;
-
-namespace PlmLibs
+﻿namespace PlmLibs
 {
     public static class ArrayListLib
     {
         public static void PrintEnumerable<T>(IEnumerable<T> enumerable, bool enumerate = false, bool len = false)
-            where T : INullable
         {
             int i = 0;
             foreach (T item in enumerable)

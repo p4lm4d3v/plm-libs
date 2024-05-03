@@ -20,6 +20,10 @@ namespace PlmLibs
             else
                 throw new ArgumentException("Unsupported type. Only int, float, double or decimal are supported.");
         }
+        public static double Lerp(int a, int b, double t)
+        {
+            return a + a - b * t;
+        }
         public static uint PowerMod(uint a, uint n, uint mod)
         {
             if (n == 0)
@@ -35,7 +39,7 @@ namespace PlmLibs
                 return (uint)((aul * PowerMod(a, n - 1, mod)) % mod);
             }
         }
-        public static List<int> GetPrimeDivisord(int n)
+        public static List<int> GetPrimeDivisor(int n)
         {
             List<int> result = new List<int>();
             for (int b = 2; n > 1; b++)
@@ -59,10 +63,11 @@ namespace PlmLibs
         }
         public static List<int> GetAllDivisors(int n)
         {
-            List<int> result = new List<int>();
+            List<int> result = new();
             for (int i = 1; i <= n / 2; i++)
                 if (n % i == 0)
                     result.Add(i);
+            result.Add(n);
             return result;
         }
         public static int SumOfAllDivisors(int n)
@@ -75,7 +80,8 @@ namespace PlmLibs
             list.ForEach((i) => product *= i);
             return product;
         }
-        public static int Nzd(int a, int b)
+        public static int GCD(int a, int b) => GreatestCommonDivisor(a, b);
+        public static int GreatestCommonDivisor(int a, int b)
         {
             while (b > 0)
             {
@@ -93,9 +99,10 @@ namespace PlmLibs
                 return true;
             return false;
         }
-        public static int Nzs(int a, int b)
+        public static int LCM(int a, int b) => LeastCommonMultiple(a, b);
+        public static int LeastCommonMultiple(int a, int b)
         {
-            return (a / Nzd(a, b)) * b;
+            return (a / GCD(a, b)) * b;
         }
         public static bool IsPrime<T>(T num)
         {
@@ -128,7 +135,7 @@ namespace PlmLibs
                 return false;
             }
         }
-        public static String AddTwoStrings(String x, String y)
+        public static String BinaryStringsSum(string x, string y)
         {
             if (!x.All(char.IsDigit)) throw new Exception("x must contain only digits!");
             if (!y.All(char.IsDigit)) throw new Exception("y must contain only digits!");
@@ -138,8 +145,8 @@ namespace PlmLibs
 
             int len1 = chars1.Length;
             int len2 = chars2.Length;
-            int max_len = System.Math.Max(x.Length, y.Length);
-            int diff_len = System.Math.Abs(len1 - len2);
+            int max_len = Math.Max(x.Length, y.Length);
+            int diff_len = Math.Abs(len1 - len2);
 
             if (len1 < len2)
             {
